@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
 
 import qrcode
 
@@ -28,12 +23,6 @@ img = qr.make_image(fill_color="black", back_color="white")
 img.save("qr_code.png")
 
 print("QR code generated and saved as qr_code.png")
-
-
-# In[2]:
-
-
-pip install qrcode[pil]
 
 
 # In[ ]:
