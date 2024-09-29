@@ -7,7 +7,7 @@
 import qrcode
 
 # Replace this URL with the link you want to convert to a QR code
-link = "https://forms.office.com/r/ZdCd0fbpre"
+link = "path of your link"
 
 # Create a QR code instance
 qr = qrcode.QRCode(
